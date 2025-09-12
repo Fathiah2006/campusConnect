@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import "./Footer.css"
 
@@ -9,7 +11,7 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="footer-about">
                     <div className="footer-logo">
-                        <h2>Campus<span>C</span>onnect</h2>
+                      <h2>Campus<span>C</span>onnect</h2>
                         <p>Your one-stop solution for campus connectivity, Stay Updated, Stay Involved!!!!</p>
                     
                     <div className="footer-social">
@@ -30,14 +32,14 @@ const Footer = () => {
                     <div className="footer-links">
                         <h3>Quick Links</h3>
                         <ul>
-                            <li><a href="">HOME</a></li>
-                            <li><a href="">ABOUT US</a></li>
-                            <li><a href="">EVENT CALENDER</a></li>
-                            <li><a href="">EVENT DETAILS </a></li>
-                            <li><a href="">REGISTRATION</a></li>
-                            <li><a href="">GALLERY</a></li>
-                            <li><a href="">FEEDBACK</a></li>
-                            <li><a href="">CONTACT US</a></li>
+                            <li><Link to="/">HOME</Link></li>
+                            <li><Link to="/about">ABOUT</Link></li>
+                              <li><Link to="/events">Event Calendar</Link></li>
+                            <li><Link to="/event-details">EVENT DETAILS </Link></li>
+          <                  li><Link to="/register">Registration</Link></li>
+                             <li><Link to="/gallery">Gallery</Link></li>
+                              <li><Link to="/feedback">Feedback</Link></li>
+                              <li><Link to="/contact">Contact Us</Link></li>
                         </ul>
                     </div>
                     <div className="footer-event details">
