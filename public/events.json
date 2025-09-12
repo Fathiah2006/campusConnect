@@ -1,0 +1,121 @@
+
+{
+  "upcoming_events": [
+    {
+      "id": 1,
+      "title": "TechWiz  2025",
+      "date": "2025-09-09",
+      "description": "Join us for 6th Edition of TechWiz 2025",
+      "thumbnail": "banner5.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Career Quest 2025",
+      "date": "2025-09-15",
+      "description": "Join us for 17th Edition of Career Quest 2025",
+      "thumbnail": "banner4.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tech Fun Fair",
+      "date": "2025-09-13",
+      "description": "Tech Forge isn’t just another tech event — it’s the space where ambition meets opportunity.",
+      "thumbnail": "banner6.jpeg"
+    }
+  ],
+  "feature_events": [
+    {
+      "id": 1,
+      "title": "TechFest 2025",
+      "date": "2025-07-20",
+      "description": "A grand celebration of technology and innovation.",
+      "thumbnail": "banner1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Cultural Week (Onam Festival)",
+      "date": "2025-09-10",
+      "description": "This festival celebrates the birth of Lord Ganesha..",
+      "thumbnail": "banner2.avif"
+    },
+    {
+      "id": 3,
+      "title": "Sports Meet",
+      "date": "2025-06-15",
+      "description": "College-wide sports competitions and activities.",
+      "thumbnail": "banner3.jpg"
+    }
+  ],
+
+  "annual_events": [
+         {
+    "id": 1,
+    "title": "TechFest 2025",
+    "category": "Technical",
+    "description": "A coding marathon and project exhibition featuring top student innovators.",
+    "month": "March",
+    "image": "public/images/annual1.jpg"
+    
+  },
+  {
+    "id": 2,
+    "title": "Hackathon",
+    "category": "Technical",
+    "description": "24-hour problem-solving competition where teams build apps & solutions.",
+    "month": "January",
+    "image": "public/images/annual2.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Festival Night",
+    "category": "Cultural",
+    "description": "An evening of dance, drama, and musical performances by students.",
+    "month": "November",
+    "image": "public/images/banner2.avif"
+  },
+  {
+    "id": 4,
+    "title": "Annual Sports Meet",
+    "category": "Sports",
+    "description": "Inter-college competitions including football, basketball, and athletics.",
+    "month": "April",
+    "image": "/images/img1.png"
+  },
+
+  {
+    "id": 5,
+    "title": "Blood Donation Drive",
+    "category": "Community",
+    "description": "A social service initiative to encourage students to donate blood.",
+    "month": "October",
+    "image": "/images/img3.avif"
+  },
+  {
+    "id": 6,
+    "title": "Alumni Meet",
+    "category": "Community",
+    "description": "Reunion event to connect current students with successful alumni.",
+    "month": "December",
+    "image": "/images/img5.avif"
+  },
+  {
+    "id": 7,
+    "title": "Surfing Championship",
+    "category": "Sports",
+    "description": "An exciting surfing competition open to all skill levels.",
+    "month": "December",
+    "image": "/images/img2.avif"
+  },
+  {
+    "id": 8,
+    "title": "National Science Day",
+    "category": "Cultural",
+    "description": "A week-long celebration of arts, music, and dance.",
+    "month": "February",
+    "image": "/images/img4.avif"
+  }
+  
+]
+} 
+ 
+

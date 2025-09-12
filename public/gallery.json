@@ -1,0 +1,89 @@
+{
+  "Gallery": [
+    {
+      "id": 1,
+      "title": "TechFest 2024",
+      "year": "2024-25",
+      "category": "Technical",
+      "image": "/images/img4.avif"
+    },
+    {
+      "id": 2,
+      "title": "Hackathon 2024",
+      "year": "2024-25",
+      "category": "Technical",
+      "image": "/images/annual2.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Cultural Night 2024",
+      "year": "2024-25",
+      "category": "Cultural",
+      "image": "/images/img6.avif"
+    },
+    {
+      "id": 4,
+      "title": "Sports Meet 2024",
+      "year": "2024-25",
+      "category": "Sports",
+      "image": "/images/img1.png"
+    },
+    {
+      "id": 5,
+      "title": "Blood Donation Drive 2024",
+      "year": "2024-25",
+      "category": "Community",
+      "image": "/images/img3.avif"
+    },
+    {
+      "id": 6,
+      "title": "Alumni Meet 2024",
+      "year": "2024-25",
+      "category": "Community",
+      "image": "/images/img5.avif"
+    },
+
+    {
+      "id": 7,
+      "title": "TechFest 2025",
+      "year": "2025-26",
+      "category": "Technical",
+      "image": "/images/banner6.jpeg"
+    },
+    {
+      "id": 8,
+      "title": "Hackathon 2025",
+      "year": "2025-26",
+      "category": "Technical",
+      "image": "/images/img8.avif"
+    },
+    {
+      "id": 9,
+      "title": "Cultural Night 2025",
+      "year": "2025-26",
+      "category": "Cultural",
+      "image": "/images/banner2.avif"
+    },
+    {
+      "id": 10,
+      "title": "Sports Meet 2025",
+      "year": "2025-26",
+      "category": "Sports",
+      "image": "/images/img2.avif"
+    },
+    {
+      "id": 11,
+      "title": "Blood Donation Drive 2025",
+      "year": "2025-26",
+      "category": "Community",
+      "image": "/images/img9.png"
+    },
+    {
+      "id": 12,
+      "title": "Alumni Meet 2025",
+      "year": "2025-26",
+      "category": "Community",
+      "image": "/images/img7.avif"
+    }
+  ]
+}

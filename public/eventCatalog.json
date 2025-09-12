@@ -1,0 +1,78 @@
+{
+  "upcoming": [
+    {
+      "id": 1,
+      "name": "Tech Innovation Summit",
+      "date": "2025-09-15T10:00:00",
+      "venue": "Main Auditorium",
+      "venueImage": "/images/banner4.jpg",
+      "category": "Academic",
+      "description": "A showcase of the latest technological innovations by students and professionals."
+    },
+    {
+      "id": 2,
+      "name": "Cultural Fest 2025",
+      "date": "2025-12-05T14:00:00",
+      "venue": "Open Grounds",
+      "venueImage": "/images/banner6.jpeg",
+      "category": "Cultural",
+      "description": "An exciting festival featuring dance, drama, and music performances."
+    }
+  ],
+  "past": [
+    {
+      "id": 3,
+      "name": "Annual Sports Meet",
+      "date": "2025-05-10T09:00:00",
+      "venue": "Sports Complex",
+      "venueImage": "/images/img2.avif",
+      "category": "Sports",
+      "description": "Inter-departmental sports competition fostering teamwork and fitness."
+    },
+    {
+      "id": 4,
+      "name": "AI Workshop",
+      "date": "2025-03-15T11:00:00",
+      "venue": "Lab 302",
+      "venueImage": "/images/annual2.jpeg",
+      "category": "Academic",
+      "description": "Hands-on workshop exploring AI concepts and applications."
+    },
+    {
+      "id": 5,
+      "name": "Music Concert",
+      "date": "2024-12-20T18:00:00",
+      "venue": "Main Auditorium",
+      "venueImage": "/images/img6.avif",
+      "category": "Cultural",
+      "description": "An evening of mesmerizing performances by local bands and artists."
+    },
+    {
+      "id": 6,
+      "name": "Annual Sports Meet",
+      "date": "2024-12-20T18:00:00",
+      "venue": "Sports Complex",
+      "venueImage": "/images/img1.png",
+      "category": "Sports",
+      "description": "Inter-college competitions including football, basketball, and athletics."
+    },
+    {
+      "id": 7,
+      "name": "Computer Science Seminar",
+      "date": "2025-07-25T14:00:00",
+      "venue": "Seminar Hall B",
+      "venueImage": "/images/img7.avif",
+      "description": "A departmental seminar featuring talks on AI, cloud computing, and cybersecurity.",
+      "category": "Departmental"
+    },
+    {
+      "id": 8,
+      "name": "Business Studies Workshop",
+      "date": "2025-06-18T10:30:00",
+      "venue": "Conference Room A",
+      "venueImage": "/images/img8.avif",
+      "description": "Interactive workshop on entrepreneurship, leadership, and business strategy.",
+      "category": "Departmental"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+/* EventCalendar.css */
+.event-calendar-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 2rem;
+}
+
+.calendar-container {
+    flex: 2;
+}
+
+.calendar-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.calendar-header h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.calendar-header p {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+.calendar-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.month-navigation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.month-navigation h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #2c3e50;
+    min-width: 200px;
+    text-align: center;
+}
+
+.month-navigation button {
+    padding: 0.5rem 1rem;
+    background: #92140c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.month-navigation button:hover {
+    background: #7a100a;
+}
+
+.today-btn {
+    background: #2c3e50 !important;
+}
+
+.today-btn:hover {
+    background: #1a252f !important;
+}
+
+.filter-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filter-controls label {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.filter-controls select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+}
+
+.calendar-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.weekday {
+    text-align: center;
+    padding: 0.5rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+}
+
+.calendar-day {
+    min-height: 100px;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    padding: 0.5rem;
+    background: white;
+    transition: all 0.2s;
+}
+
+.calendar-day:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-day.today {
+    background: #fff8e1;
+    border-color: #ffd54f;
+}
+
+.calendar-day.today .day-number {
+    font-weight: 700;
+    color: #92140c;
+}
+
+.calendar-day.empty {
+    background: #f8f9fa;
+    border: none;
+}
+
+.day-number {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.events-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.event-dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.25rem;
+    cursor: pointer;
+}
+
+.event-dot.technical {
+    background: #db3434;
+}
+
+.event-dot.cultural {
+    background: #3498db;
+}
+
+.event-dot.sports {
+    background: #2ecc71;
+}
+
+.event-dot.community {
+    background: #f39c12;
+}
+
+.more-events {
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    cursor: pointer;
+}
+
+.legend {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.legend h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.legend-items {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Upcoming Events Sidebar */
+.upcoming-events-sidebar {
+    flex: 1;
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    height: fit-content;
+    position: sticky;
+    top: 5rem;
+}

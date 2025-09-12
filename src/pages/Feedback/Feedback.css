@@ -1,0 +1,120 @@
+.feedback-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #92140c;
+}
+
+/* Horizontal layout */
+.feedback-form {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 15px 20px;
+    align-items: center;
+}
+
+.form-row {
+    display: contents;
+}
+
+.feedback-form label {
+    font-weight: 600;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.feedback-form textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+/* Star rating styles */
+.star-rating {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.star {
+    color: #ccc;
+    transition: color 0.2s;
+}
+
+.star:hover {
+    color: gold;
+}
+
+.star.selected {
+    color: gold;
+}
+
+.button-row {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.feedback-form button {
+    padding: 12px 20px;
+    background: #92140c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.feedback-form button:hover {
+    background: black;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner7.jpg') center/cover no-repeat;   
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    height: 90vh;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Feedback container */
+.feedback-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.hero-content {
+    max-width: 800px;
+    margin: auto;
+}

@@ -1,0 +1,162 @@
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 50px 20px 20px;
+    font-family: "Nunito", cursive;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-logo h2 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 0.99rem;
+    line-height: 2.1rem;
+    color: #ddd;
+}
+
+/* Social icons under logo */
+.footer-social {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a {
+    color: #ddd;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #92140c;
+}
+
+/* Section titles */
+.footer-links h3,
+.footer-event h3,
+.footer-col h4 {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: #fff;
+    border-bottom: 2px solid #92140c;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-links ul,
+.footer-event ul,
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li,
+.footer-event ul li,
+.footer-col ul li {
+    margin: 8px 0;
+}
+
+.footer-links ul li a,
+.footer-event ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover,
+.footer-event ul li a:hover {
+    color: #92140c;
+}
+
+/* Contact */
+.footer-col ul li {
+    font-size: 0.95rem;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-icon {
+    color: #92140c;
+    font-size: 1rem;
+}
+
+.footer-email a {
+    display: inline-block;
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-email a:hover {
+    color: #92140c;
+}
+
+.phone-link {
+    color: #ddd;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.phone-link:hover {
+    color: #92140c;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+@media (max-width: 992px) {
+    .footer-about {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    .footer-logo p {
+        margin: 0 auto;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-about {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-links,
+    .footer-event,
+    .footer-col {
+        margin-top: 20px;
+    }
+
+    .footer-col ul li {
+        justify-content: center;
+    }
+}

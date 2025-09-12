@@ -1,0 +1,70 @@
+.college-overview {
+    padding: 60px 20px;
+    background: #fff;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+}
+
+.overview-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.overview-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px solid #92140c;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.overview-intro {
+    font-size: 1.1rem;
+    color: #000;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+}
+
+.overview-intro span {
+    color: #92140c;
+    font-weight: bold;
+}
+
+.overview-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.overview-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.overview-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.overview-card h3 {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    color: #92140c;
+}
+
+.overview-card p {
+    font-size: 1rem;
+    color: #000;
+    line-height: 1.6;
+}
+
+.overview-icon {
+    font-size: 2.2rem;
+    color: #92140c;
+}
