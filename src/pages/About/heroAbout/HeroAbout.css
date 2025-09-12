@@ -2,7 +2,7 @@
     font-family: "Nunito", sans-serif;
     position: relative;
     height: 90vh;
-    background: url("./images/banner7.jpg") center/cover no-repeat;
+    background: url("/public/images/banner7.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
