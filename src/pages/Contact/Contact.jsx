@@ -164,7 +164,7 @@ const handleSubmit = (e) => {
                   <h3>Our Location</h3>
                   <p className="address">
                     <MapPin className="address-icon" />
-                    123 University Avenue, Campus Town, CT 54321
+                    123  AptechAkowonjo, Lagos Nigeria, 
                   </p>
                 </div>
                 <div className="map-embed">
