@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 
@@ -61,9 +60,9 @@ useEffect(() => {
        {!isOpen && <div className="logo">Campus<span>C</span>onnect</div>}
 
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About Us</Link></li>
-          <li><Link to="/events">Event Calendar</Link></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#calendar">Event Calendar</a></li>
 
           <li
             className="dropdown"
@@ -75,17 +74,17 @@ useEffect(() => {
             </button>
             {dropdownOpen && (
               <div className="dropdown-content">
-                <Link to="/event-details">Academic Events</Link>
-                <Link to="/event-details">Cultural Events</Link>
-                <Link to="/event-details">Sports Events</Link>
-                <Link to="/event-details">Departmental Events</Link>
+                <a href="#academic">Academic Events</a>
+                <a href="#cultural">Cultural Events</a>
+                <a href="#sports">Sports Events</a>
+                <a href="#department">Departmental Events</a>
               </div>
             )}
           </li>
-          <li><Link to="/register">Registration</Link></li>
-          <li><Link to="/gallery">Gallery</Link></li>
-          <li><Link to="/feedback">Feedback</Link></li>
-          <li><Link to="/contact">Contact Us</Link></li>
+          <li><a href="#registration">Registration</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
 
         <div className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
