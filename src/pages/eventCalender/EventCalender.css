@@ -1,15 +1,17 @@
-/* EventCalendar.css */
 .event-calendar-page {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Nunito',  sans-serif;
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
+    overflow-x: hidden;
 }
 
 .calendar-container {
     flex: 2;
+    min-width: 0;
 }
 
 .calendar-header {
@@ -210,13 +212,47 @@
     gap: 0.5rem;
 }
 
-/* Upcoming Events Sidebar */
 .upcoming-events-sidebar {
     flex: 1;
+    min-width: 280px;
+    max-width: 350px;
     background: #f8f9fa;
     padding: 1.5rem;
     border-radius: 8px;
     height: fit-content;
     position: sticky;
     top: 5rem;
+}
+
+@media (max-width: 992px) {
+    .event-calendar-page {
+        flex-direction: column;
+    }
+
+    .calendar-container,
+    .upcoming-events-sidebar {
+        flex: 1 1 100%;
+        min-width: 100%;
+        max-width: 100%;
+        position: static;
+    }
+}
+
+@media (max-width: 600px) {
+    .calendar-header h2 {
+        font-size: 2rem;
+    }
+
+    .month-navigation h3 {
+        font-size: 1.2rem;
+        min-width: auto;
+    }
+
+    .calendar-day {
+        min-height: 80px;
+    }
+
+    .calendar-weekdays {
+        font-size: 0.85rem;
+    }
 }

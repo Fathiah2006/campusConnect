@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { MapPin, X } from "lucide-react";
 import "./EventCatalog.css";
 
-// Countdown Component
 const Countdown = ({ date }) => {
   const [timeLeft, setTimeLeft] = useState("");
 
