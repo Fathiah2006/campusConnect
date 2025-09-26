@@ -45,10 +45,10 @@ const Footer = () => {
                     <div className="footer-event details">
                         <h3>EVENT DETAILS</h3>
                         <ul>
-                            <li><a href="">Academic Events</a></li>
-                            <li><a href="">Cutural Events</a></li>
-                            <li><a href="">Sport Events</a></li>
-                            <li><a href="">Departmental Events</a></li>
+                            <li><Link to="/event-details">Academic Events</Link></li>
+                            <li><Link to="/event-details">Cultural Events</Link></li>
+                            <li><Link to="/event-details">Sport Events</Link></li>
+                            <li><Link to="/event-details">Departmental Events</Link></li>
                         </ul>
                     </div>
                      <div className="footer-col">
